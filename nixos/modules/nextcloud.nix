@@ -6,6 +6,18 @@
     enable = true;
     package = pkgs.nextcloud29;
     hostName = "localhost";
-    config.adminpassFile = "/etc/nextcloud-admin-pass";
+
+    database.createLocally = true;
+    configureRedis = true;
+
+    autoUpdateApps.enable = true;
+    maxUploadSize = "1G";
+
+    settings.trusted_domains = [ 127.0.0.1/8 192.168.0.0/16 fd00::/8 ];
+
+    config = {
+      dbtype = "pgsql";
+      adminpassFile = "/etc/nextcloud-admin-pass";
+    }
   };
 }
