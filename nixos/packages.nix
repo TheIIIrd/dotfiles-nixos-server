@@ -5,41 +5,41 @@
 
   environment.systemPackages = with pkgs; [
     # Coding stuff
+    clang
+    clang-tools
+    cargo
+    gcc
+    gnumake
+    mono
     python312
     python312Packages.pip
-    gnumake
-    clang-tools
-    clang
-    gcc
-    mono
     rustc
-    cargo
     zulu
 
     # CLI utils
+    aria2
+    bat
+    bind
+    curl
     fastfetch
+    ffmpeg
+    file
+    git
+    inxi
+    ipset
+    lshw
     neovim
     openssl
-    git
-    wget
-    curl
-    aria2
-    ipset
-    bind
-    file
+    radare2
     tree
     tldr
-    bat
-    zip
     unzip
-    ffmpeg
-    htop
-    inxi
-    lshw
+    wget
+    zip
 
     # Other
-    nix-index
     home-manager
+    nix-index
     zram-generator
   ];
 }
