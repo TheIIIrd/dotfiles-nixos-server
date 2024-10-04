@@ -8,8 +8,6 @@
   disabledModules = [
     ./modules/qemuguest.nix
     ./modules/printing.nix
-    ./modules/docker.nix
-    ./modules/tlp.nix
   ];
 
   networking.hostName = "nixos"; # Define your hostname.
