@@ -25,6 +25,7 @@
     ffmpeg
     file
     git
+    htop
     inxi
     ipset
     lshw

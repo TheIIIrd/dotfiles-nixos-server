@@ -9,6 +9,7 @@
     ./user.nix        # User accounts and permissions
     ./env.nix         # Environment settings
     ./qemuguest.nix   # QEMU guest configuration
+    ./zerotierone.nix # ZeroTier One settings
     ./ssh.nix         # SSH configuration
     ./nextcloud.nix   # Nextcloud configuration
   ];

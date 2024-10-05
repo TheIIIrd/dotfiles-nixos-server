@@ -20,7 +20,7 @@
       trusted_domains = [ "nixos.nextcloud.local" ]; # Domain from which you can access the server
       log_type = "file";
       # overwriteprotocol = "https";  # Force Nextcloud to always use HTTPS
-      # default_phone_region = "PL";   # An ISO 3166-1 country code
+      # default_phone_region = "PL";  # An ISO 3166-1 country code
     };
 
     config = {

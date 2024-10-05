@@ -6,8 +6,9 @@
   ];
 
   disabledModules = [
-    ./modules/qemuguest.nix
     ./modules/printing.nix
+    ./modules/qemuguest.nix
+    ./modules/zerotierone.nix
   ];
 
   networking.hostName = "nixos"; # Define your hostname.
