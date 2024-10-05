@@ -20,4 +20,5 @@ home-manager switch -b backup --flake .
 After installation
 ```bash
 nextcloud-occ maintenance:repair --include-expensive
+nextcloud-occ db:add-missing-indices
 ```
