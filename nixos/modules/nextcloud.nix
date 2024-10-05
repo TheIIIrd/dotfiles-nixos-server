@@ -10,6 +10,7 @@
     database.createLocally = true;
 
     caching.apcu = true;
+    phpOptions."opcache.interned_strings_buffer" = "23";
 
     autoUpdateApps.enable = true;
     maxUploadSize = "1G";
