@@ -5,9 +5,9 @@
 
   environment.systemPackages = with pkgs; [
     # Coding stuff
+    cargo
     clang
     clang-tools
-    cargo
     gcc
     gnumake
     mono

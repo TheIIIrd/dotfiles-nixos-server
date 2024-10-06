@@ -11,6 +11,7 @@
     ./qemuguest.nix   # QEMU guest configuration
     ./zerotierone.nix # ZeroTier One settings
     ./ssh.nix         # SSH configuration
+    ./coturn.nix      # CoTURN configuration
     ./nextcloud.nix   # Nextcloud configuration
   ];
 }
