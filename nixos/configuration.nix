@@ -8,8 +8,8 @@
   disabledModules = [
     ./modules/printing.nix
     ./modules/qemuguest.nix
-    ./modules/coturn.nix
     ./modules/zerotierone.nix
+    ./modules/tailscale.nix
   ];
 
   networking.hostName = "nixos"; # Define your hostname.

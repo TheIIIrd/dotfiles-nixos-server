@@ -5,14 +5,12 @@
 
   environment.systemPackages = with pkgs; [
     # Coding stuff
-    cargo
+    python312
+    python312Packages.pip
     clang
     clang-tools
     gcc
-    gnumake
-    mono
-    python312
-    python312Packages.pip
+    cargo
     rustc
     zulu
 
@@ -31,7 +29,7 @@
     lshw
     neovim
     openssl
-    radare2
+    onefetch
     tree
     tldr
     unzip
