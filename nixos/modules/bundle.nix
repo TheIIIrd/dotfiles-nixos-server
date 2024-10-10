@@ -11,6 +11,7 @@
     ./qemuguest.nix   # QEMU guest configuration
     ./zerotierone.nix # ZeroTier One settings
     ./tailscale.nix   # Tailscale settings
+    ./yggdrasil.nix   # Yggdrasil settings
     ./ssh.nix         # SSH configuration
     ./nextcloud.nix   # Nextcloud configuration
   ];

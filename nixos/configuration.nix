@@ -10,6 +10,7 @@
     ./modules/qemuguest.nix
     ./modules/zerotierone.nix
     ./modules/tailscale.nix
+    ./modules/yggdrasil.nix
   ];
 
   networking.hostName = "nixos"; # Define your hostname.
