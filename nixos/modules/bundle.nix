@@ -1,6 +1,7 @@
 {
   imports = [
     ./bootloader.nix  # Bootloader configuration
+    ./logind.nix      # Logind configuration
     ./firewall.nix    # Firewall configuration
     ./trim.nix        # Trim configuration
     ./zram.nix        # ZRAM configuration
