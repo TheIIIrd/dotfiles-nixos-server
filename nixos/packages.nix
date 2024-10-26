@@ -4,16 +4,6 @@
   };
 
   environment.systemPackages = with pkgs; [
-    # Coding stuff
-    python312
-    python312Packages.pip
-    clang
-    clang-tools
-    gcc
-    cargo
-    rustc
-    zulu
-
     # CLI utils
     aria2
     bat

@@ -24,6 +24,7 @@
     };
 
     config = {
+      adminuser = "r00t";
       dbtype = "pgsql";
       adminpassFile = "/etc/nextcloud-admin-pass";
     };
