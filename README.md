@@ -21,5 +21,6 @@ After installation
 ```bash
 nextcloud-occ maintenance:repair --include-expensive
 nextcloud-occ config:system:set maintenance_window_start --type=integer --value=1
+nextcloud-occ config:app:set files max_chunk_size --value 20971520 # Sometimes it can help
 nextcloud-occ db:add-missing-indices
 ```

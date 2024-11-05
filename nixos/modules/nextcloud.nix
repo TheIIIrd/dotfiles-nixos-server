@@ -13,7 +13,7 @@
     phpOptions."opcache.interned_strings_buffer" = "32";
 
     autoUpdateApps.enable = true;
-    maxUploadSize = "1G";
+    maxUploadSize = "8G";
     https = true;
 
     settings = {

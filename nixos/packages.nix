@@ -19,7 +19,6 @@
     lshw
     neovim
     openssl
-    onefetch
     tree
     tldr
     unzip

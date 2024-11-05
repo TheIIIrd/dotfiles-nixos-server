@@ -6,7 +6,7 @@
   ];
 
   disabledModules = [
-    ./modules/logind.nix
+    # ./modules/logind.nix
     ./modules/printing.nix
     ./modules/qemuguest.nix
     ./modules/zerotierone.nix

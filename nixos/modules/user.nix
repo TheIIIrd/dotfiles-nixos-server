@@ -1,4 +1,4 @@
-{ pkgs, pkgs-unstable, ... }: {
+{ pkgs, ... }: {
   # Enable Zsh
   programs.zsh.enable = true;
 
@@ -10,7 +10,7 @@
       isNormalUser = true;
       description = "<username>";
       extraGroups = [ "networkmanager" "wheel" ];
-      packages = with pkgs-unstable; [];
+      packages = with pkgs; [];
     };
   };
 }
