@@ -1,4 +1,4 @@
-# ❄️ My NixOS Server Config ![Nix](https://img.shields.io/badge/This_is-Nix-blue?logo=NixOS)
+# ❄️ **My NixOS Server Config**
 
 Don't forget to change `SECURE_PASSWORD_HERE`, `BIG_SECRET_HERE` and `trusted_domains` in [./nixos/modules/nextcloud.nix](./nixos/modules/nextcloud.nix). Also check `disabledModules` in [./nixos/configuration.nix](./nixos/configuration.nix) and bootloader in [./nixos/bootloader.nix](./nixos/bootloader.nix).
 
