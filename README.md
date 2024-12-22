@@ -3,7 +3,7 @@
 Don't forget to change `SECURE_PASSWORD_HERE`, `BIG_SECRET_HERE` and `trusted_domains` in [./nixos/modules/nextcloud.nix](./nixos/modules/nextcloud.nix). Also check `disabledModules` in [./nixos/configuration.nix](./nixos/configuration.nix) and bootloader in [./nixos/bootloader.nix](./nixos/bootloader.nix).
 
 ```bash
-git clone https://github.com/TheIIIrd/nixos-custom-server.git ~/.nix && cd ~/.nix
+git clone https://github.com/TheIIIrd/nixos-srv.git ~/.nix && cd ~/.nix
 ```
 
 ```bash
